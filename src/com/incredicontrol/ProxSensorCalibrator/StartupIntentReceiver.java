@@ -21,7 +21,7 @@ public class StartupIntentReceiver extends BroadcastReceiver {
 			      String Message = "Problem writing proximity calibration boot values";
 			      Log.e(RezoundProximitySensorCalibratorActivity.TAG, Message);
 			}
-			   Toast.makeText(context, values + " set", Toast.LENGTH_SHORT).show();
+			   // Toast.makeText(context, values + " set", Toast.LENGTH_SHORT).show();
 		}
 	}
 }
